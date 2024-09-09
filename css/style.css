@@ -1,0 +1,4452 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    
+}
+header{
+    height: 859px;
+    width: 100%;
+    background-image: url(../img/Background.png);
+    background-size: cover;
+}
+.navbar {
+  margin: 0px 120px; 
+  height: 140px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+
+}
+/* nav1 start */
+.nav1 {
+    position: sticky;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1.5px solid green;
+    justify-content: space-between;
+}
+.navlogo{
+    margin-left: 10px;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
+}
+.searchbox:hover input{
+    width:300px ;
+}
+.searchbox input{
+ width: 0;
+ outline: none;
+ border: none;
+ font-weight: 500;
+ transition: 0.8s;
+ background: transparent;
+}
+.searchbox a .fas{
+    color: green;
+    font-size: 18px;
+}
+.shoplogo{
+    margin-top: 20px;
+}
+.shoplogo img:hover{
+    cursor: pointer;
+}
+/* nav1 end */
+.nav2{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ioc{
+    margin-right: 10px;
+    font-size: 20px;
+   
+    visibility: hidden;
+}
+.nav-menu ul{
+    display: flex; 
+   margin-left: 10px;
+
+}
+.nav-menu ul li{
+  
+    list-style: none;
+    
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 19px;
+    color: black;
+    font-weight: 800;
+   
+    
+}
+
+@media    (min-width:1024px) and (max-width:1366px){
+    .navbar {
+        margin: 0px 100px; 
+        height: 140px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 80px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+      }
+      .searchbox:hover input{
+          width:300px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 20px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 60px;
+          display: flex;
+          align-items: center;
+      }
+      .nav-menu ul{
+          display: flex; 
+         margin-left: 10px;
+      
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          padding-right: 25px;
+          font-size: 19px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+
+}
+@media screen and (max-width:991px) {
+    .navbar {
+        margin: 0px 100px; 
+        height: 140px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 80px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+      }
+      .searchbox:hover input{
+          width:300px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 20px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 60px;
+          display: flex;
+          align-items: center;
+      }
+      .nav-menu ul{
+          display: flex; 
+         margin-left: 10px;
+      
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          padding-right: 25px;
+          font-size: 19px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+      
+}
+
+
+@media screen and (max-width:767px) {
+    .navbar {
+        margin: 0px 60px; 
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 60px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+      }
+      .searchbox:hover input{
+          width:300px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 10px;
+      }
+      .shoplogo img{
+        height: 45px;
+        width: 55px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 40px;
+          display: flex;
+          align-items: center;
+      }
+      .nav-menu ul{
+          display: flex; 
+         margin-left: 10px;
+      
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          padding-right: 20px;
+          font-size: 15px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+      
+}
+
+@media screen and (max-width:575px) {
+    .navbar {
+        margin: 10px 10px; 
+       
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 60px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+      }
+      .searchbox:hover input{
+          width:200px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 10px;
+      }
+      .shoplogo img{
+        height: 45px;
+        width: 55px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      .nav-menu ul{
+        display: block; 
+        
+    
+        display: none;
+        width: 200px;
+        height: 280px;
+        top: 97px;
+        float: right;
+        right: 0;
+        position: absolute;
+        background-color: transparent;
+        align-items: center;
+       transition: 2s ease;
+        background-color:#ffffff;
+    text-align: center;
+         
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          padding: 10px;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          /* padding-right: 20px; */
+          font-size: 20px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+      .ioc{
+      
+       visibility: visible;
+       /* display: inline-block; */
+       margin-right: 20px;
+       display: block;
+       
+
+     
+        
+      }
+      .nav-menu ul.active{
+        display: inline-block;
+        right: 0;
+      }
+}
+
+
+
+@media screen and (max-width:480px) {
+    .navbar {
+        margin: 10px 10px; 
+       
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 60px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+      }
+      .searchbox:hover input{
+          width:150px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 10px;
+      }
+      .shoplogo img{
+        height: 45px;
+        width: 55px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      .nav-menu ul{
+        display: block; 
+        
+    
+        display: none;
+        width: 200px;
+        height: 280px;
+        top: 97px;
+        float: right;
+        right: 0;
+        position: absolute;
+        background-color: transparent;
+        align-items: center;
+       transition: 2s ease;
+        background-color:#ffffff;
+    text-align: center;
+         
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          padding: 10px;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          /* padding-right: 20px; */
+          font-size: 20px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+      .ioc{
+      
+       visibility: visible;
+       /* display: inline-block; */
+       margin-right: 20px;
+       display: block;
+       
+
+     
+        
+      }
+      .nav-menu ul.active{
+        display: inline-block;
+        right: 0;
+      }
+}
+
+
+@media    (min-width:200px) and (max-width:375px) {
+    .navbar {
+        margin: 10px 10px; 
+       
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0px 15px 0px  rgba(0, 0, 0, 0.3);
+      }
+      /* nav1 start */
+      .nav1 {
+          position: sticky;
+          display: flex;
+          height: 60px;
+          align-items: center;
+          border-bottom: 1.5px solid green;
+          justify-content: space-between;
+      }
+      .navlogo{
+          margin-left: 10px;
+      }
+      .logo2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .searchbox{
+          height: 30px;
+          display: flex;
+          cursor: pointer;
+          padding: 10px 20px;
+          background: white;
+          border-radius: 30px;
+          align-items: center;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        margin-right: 5px;
+      }
+      .searchbox:hover input{
+          width:70px ;
+      }
+      .searchbox input{
+       width: 0;
+       outline: none;
+       border: none;
+       font-weight: 500;
+       transition: 0.8s;
+       background: transparent;
+      }
+      .searchbox a .fas{
+          color: green;
+          font-size: 18px;
+      }
+      .shoplogo{
+          margin-top: 10px;
+      }
+      .shoplogo img{
+        height: 45px;
+        width: 55px;
+      }
+      .shoplogo img:hover{
+          cursor: pointer;
+      }
+      /* nav1 end */
+      .nav2{
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+      .nav-menu ul{
+        display: block; 
+        
+    
+        display: none;
+        width: 200px;
+        height: 280px;
+        top: 97px;
+        float: right;
+        right: 0;
+        position: absolute;
+        background-color: transparent;
+        align-items: center;
+       transition: 2s ease;
+        background-color:#ffffff;
+    text-align: center;
+         
+      }
+      .nav-menu ul li{
+        
+          list-style: none;
+          padding: 10px;
+          
+      }
+      .nav-menu ul li a{
+          text-decoration: none;
+          /* padding-right: 20px; */
+          font-size: 20px;
+          color: black;
+          font-weight: 800;
+         
+          
+      }
+      .ioc{
+      
+       visibility: visible;
+       /* display: inline-block; */
+       margin-right: 20px;
+       display: block;
+       
+
+     
+        
+      }
+      .nav-menu ul.active{
+        display: inline-block;
+        right: 0;
+      }
+}
+/* ==================== nav bar end============================= */
+
+/*========================== banner start ======================== */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 130px;
+}
+.banner1 h1 {
+   font-size: 60px;
+padding-top: 170px;
+color: black;
+font-weight: 800;
+}
+.banner1 h1 span:hover{
+    cursor: pointer;
+    color: #3A632F;
+}
+.banner1 p{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner1 .b2{
+    margin-top: 50px;
+}
+.banner1 .b2 button{
+    width: 140px;
+    height: 50px;
+    margin-right: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px  solid #000000;
+}
+.banner1 .b2 button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+.banner2 .banner2-1{
+    margin-top: 340px;
+}
+.banner2 .banner2-1 #i1{
+    margin-bottom: 20px;
+    width: 565px;
+height: 113px;
+}
+.banner2 .banner2-1 #i2{
+    width: 268px;
+height: 113px;
+
+
+}
+/*===================================== collection start ============================= */
+.collection {
+    height: 862px;
+    width: 100%;
+    background-image: url(../img/Group\ 20.png);
+    background-size: cover;
+}
+.collection h2{
+    padding-top: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+.collection h3{
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.collection .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 180px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.collection .row .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #FFC973;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+.collection .row .card1:hover{
+
+height: 400px;
+}
+.collection .row .card1 .imgbx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: var(--clr);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.collection .row .card1:hover .imgbx{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+    
+}
+.collection .row .card1 .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.collection .row .card1 .content{
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    top: 252px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.collection .row .card1:hover .content{
+    height: 250px;
+    top: 130px;
+
+}
+.collection .row .card1 .content h4{
+   font-size: 35px;
+    font-weight: 700;
+    color:black;
+}
+.collection .row .card1 .content p{
+    color: #000;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.collection .row .card1 .content h5{
+    color: #000;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.collection .row .card1 .content a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--clr);
+    color: #000;
+    font-weight: bold;
+  
+    text-decoration: none;
+    background-color: 8px
+    
+
+}
+.collection .row .card1 .content a:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+/*============================ best section start ====================================== */
+.best{
+    height: 760px;
+    width: 100%;
+    background-image: url(../img/best.png);
+    background-size: cover;
+}
+.best .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.best .row .best1 img{
+    margin-top: 115px;
+    width: 531px;
+    height: 645px;
+}
+.best2 h3{
+    font-size: 50px;
+ margin-top: 210px;
+}
+
+.best2 h3 span:hover{
+    cursor: pointer;
+    color: #3A632F;
+}
+.best2 p{
+    font-size: 18px;
+   margin-top: 40px;
+   line-height: 30px;
+}
+.best2 button{
+    width: 140px;
+    height: 50px;
+    margin-right: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px  solid #000000;
+    margin-top: 50px;
+}
+.best2 button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+@media    (min-width:1024px) and (max-width:1366px){
+    .best{
+        height: 760px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .best .row .best1 img{
+        margin-top: 115px;
+        width: 531px;
+        height: 645px;
+    }
+    .best2 h3{
+        font-size: 50px;
+     margin-top: 210px;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 18px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+    .best2 button{
+        width: 140px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 50px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+}
+@media screen and (max-width:991px) {
+    .best{
+        height: 760px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .best .row .best1 img{
+        margin-top: 115px;
+        width: 531px;
+        height: 645px;
+    }
+    .best2 h3{
+        font-size: 50px;
+     margin-top: 210px;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 18px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+    .best2 button{
+        width: 140px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 50px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    } 
+}
+@media screen and (max-width:767px) {
+    .best{
+        height: 560px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .best .row .best1 img{
+        margin-top: 115px;
+        width: 331px;
+        height: 445px;
+    }
+    .best2 h3{
+        font-size: 40px;
+     margin-top: 200px;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+    }
+    .best2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 30px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    } 
+}
+
+@media screen and (max-width:575px) {
+    .best{
+        height: 895px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .best .row .best1 img{
+        margin-top: 65px;
+        width: 331px;
+        height: 445px;
+    }
+    .best2 h3{
+        font-size: 50px;
+     margin-top: 60px;
+     text-align: center;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .best2 .bbut{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;
+    }
+    .best2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 0px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 30px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    } 
+}
+@media screen and (max-width:480px) {
+    .best{
+        height: 874px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .best .row .best1 img{
+        margin-top: 65px;
+        width: 331px;
+        height: 445px;
+    }
+    .best2 h3{
+        font-size: 40px;
+     margin-top: 60px;
+     text-align: center;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .best2 .bbut{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;
+    }
+    .best2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 0px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 30px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    } 
+}
+
+@media (min-width:320px)  and (max-width:375px) {
+    .best{
+        height: 874px;
+        width: 100%;
+        background-image: url(../img/best.png);
+        background-size: cover;
+    }
+    .best .row{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .best .row .best1 img{
+        margin-top: 65px;
+        width: 331px;
+        height: 445px;
+    }
+    .best2 h3{
+        font-size: 40px;
+     margin-top: 60px;
+     text-align: center;
+    }
+    
+    .best2 h3 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .best2 p{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .best2 .bbut{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;
+    }
+    .best2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 0px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 30px;
+    }
+    .best2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    } 
+}
+/* ================================== best section end =============================== */
+/*===================================== garden start ================================ */
+.garden{
+    height: 414px;
+    width: 100%;
+    background-image: url(../img/bes.png);
+    background-size: cover;
+}
+.garden .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+.garden .row h4{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+    text-transform: capitalize;
+
+}
+.garden .row img {
+     width: 276px;
+     height: 221px;
+     margin-top: 85px;
+}
+.garden .row .garden2 h5{
+    font-size: 24px;
+    margin-top: 120px;
+    color: white;
+}
+.garden2 button{
+    width: 140px;
+    height: 50px;
+    margin-right: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px  solid #ffffff;
+    margin-top: 20px;
+}
+.garden2 button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px  solid #000000;
+}
+/* =============================== galler start ============================== */
+
+.gallary{
+    
+    background: #eee;
+    height: 600px;
+}
+.gallary h3{
+    padding-top: 40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color:#3A632F;
+    text-align: center;
+}
+.g2 {
+  position: relative;
+  height: 100%;
+  
+  
+}
+
+.g2 {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  /* background-image: url(../img/young-female-gardener-spraying-water-succulent-plants-greenhouse.jpg);
+  background-size: cover; */
+}
+
+/* .g2 {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .gallary,
+.g2 {
+  position: relative;
+  height: 100%;
+} */
+
+.g2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 350px;
+  height: 520px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  /* background-color: rgb(206, 17, 17); */
+  background-image: url(../img/pexels-ganajp-4117241.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(2n) {
+  /* background-color: rgb(0, 140, 255); */
+  background-image: url(../img/pexels-eva-bronzini-7127928.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(3n) {
+  /* background-color: rgb(10, 184, 111); */
+  background-image: url(../img/pexels-pixabay-56890.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  /* background-color: rgb(211, 122, 7); */
+  background-image: url(../img/pexels-scrob-andreea-1063285706-20517331.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image: url(../img/pexels-rahulp9800-1212487.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(6n) {
+  /* background-color: rgb(180, 10, 47); */
+  background-image: url(../img/potted-plants-2706383.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  /* background-color: rgb(35, 99, 19); */
+  background-image: url(../img/potted-plants-growing-greenhouse.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  /* background-color: rgb(0, 68, 255); */
+  background-image: url(../img/greenhouse-2546692.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  /* background-color: rgb(218, 12, 218); */
+  background-image: url(../img/pexels-thepaintedsquare-14580342.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(10n) {
+  /* background-color: rgb(54, 94, 77); */
+  background-image: url(../img/pexels-felixmittermeier-2832048.jpg);
+  background-size: cover;
+}
+@media screen and (max-width: 575px){
+                                                 
+    .swiper {
+        width: 250px;
+        height: 380px;
+      }
+    }
+
+    @media screen and (max-width: 375px){
+
+        .swiper {
+            width: 200px;
+            height: 300px;
+          }
+
+          .gallary{
+            /* position: relative;
+            height: 100%; */
+            background: #eee;
+            height: 500px;
+        }
+        }
+/* ============================== gallery  end =============================== */
+/* ================================  houseplant ===============================*/
+.houseplant{
+    height: 777px;
+    width: 100%;
+    background-image: url(../img/houseplant.png);
+    background-size: cover;
+
+}
+.houseplant .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+
+}
+.houseplant .row h4{
+    font-size: 50px;
+ margin-top: 210px;
+}
+
+.houseplant .row h4 span:hover{
+    cursor: pointer;
+    color: #3A632F;
+}
+.houseplant .row h5{
+    font-size: 18px;
+   margin-top: 40px;
+   line-height: 30px;
+}
+.houseplant .row button{
+    width: 140px;
+    height: 50px;
+    margin-right: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px  solid #000000;
+    margin-top: 50px;
+}
+.houseplant .row button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+.house2 img{
+    width: 529px;
+    height: 662px;
+    margin-top: 115px;
+}
+@media    (min-width:1024px) and (max-width:1366px){
+    .houseplant{
+        height: 777px;
+        width: 100%;
+        background-image: url(../img/houseplant.png);
+        background-size: cover;
+    
+    }
+    .houseplant .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 30px;
+    
+    }
+    .houseplant .row h4{
+        font-size: 50px;
+     margin-top: 210px;
+    }
+    
+    .houseplant .row h4 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .houseplant .row h5{
+        font-size: 18px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+    .houseplant .row button{
+        width: 140px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 50px;
+    }
+    .houseplant .row button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .house2 img{
+        width: 529px;
+        height: 662px;
+        margin-top: 115px;
+    }
+}
+@media screen and (max-width:991px) {
+    .houseplant{
+        height: 800px;
+        width: 100%;
+        background-image: url(../img/houseplant.png);
+        background-size: cover;
+    
+    }
+    .houseplant .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 30px;
+    
+    }
+    .houseplant .row h4{
+        font-size: 50px;
+     margin-top: 310px;
+    }
+    
+    .houseplant .row h4 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .houseplant .row h5{
+        font-size: 18px;
+       margin-top: 40px;
+       line-height: 30px;
+    }
+    .houseplant .row button{
+        width: 140px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 50px;
+    }
+    .houseplant .row button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .house2 img{
+        margin-top: 155px;
+        width: 531px;
+        height: 645px;
+    }
+}
+@media screen and (max-width:767px) {
+    .houseplant{
+        height: 620px;
+        width: 100%;
+        background-image: url(../img/houseplant.png);
+        background-size: cover;
+    
+    }
+    .houseplant .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 20px;
+    
+    }
+    .houseplant .row h4{
+        font-size: 40px;
+     margin-top: 260px;
+     text-align: center;
+    }
+    
+    .houseplant .row h4 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .houseplant .row h5{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .hbutt{
+        margin-left: 25px;
+    }
+    .houseplant .row button{
+        width: 100px;
+        height: 40px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 50px;
+    }
+    .houseplant .row button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .house2 img{
+        margin-top: 175px;
+        width: 331px;
+        height: 445px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .houseplant{
+        height: 955px;
+        width: 100%;
+        background-image: url(../img/houseplant.png);
+        background-size: cover;
+    
+    }
+    .houseplant .row{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .houseplant .row h4{
+        font-size: 40px;
+     margin-top: 160px;
+     text-align: center;
+    }
+    
+    .houseplant .row h4 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .houseplant .row h5{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .hbutt{
+        margin-left: 30px;
+    }
+    .houseplant .row button{
+        width: 100px;
+        height: 40px;
+        margin-right: 45px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 20px;
+    }
+    .houseplant .row button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .house2 img{
+        margin-top: 95px;
+        width: 331px;
+        height: 445px;
+    }
+}
+
+@media (min-width:320px)  and (max-width:375px) {
+    .houseplant{
+        height: 955px;
+        width: 100%;
+        background-image: url(../img/houseplant.png);
+        background-size: cover;
+    
+    }
+    .houseplant .row{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .houseplant .row h4{
+        font-size: 40px;
+     margin-top: 160px;
+     text-align: center;
+    }
+    
+    .houseplant .row h4 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .houseplant .row h5{
+        font-size: 15px;
+       margin-top: 20px;
+       line-height: 20px;
+       text-align: center;
+    }
+    .hbutt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
+    .houseplant .row button{
+        width: 100px;
+        height: 40px;
+        margin-right: 0px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+        margin-top: 20px;
+    }
+    .houseplant .row button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .house2 img{
+        margin-top: 95px;
+        width: 331px;
+        height: 445px;
+    }
+}
+
+/*=========================== feedback ================================ */
+.feedback{
+    height: 916px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/Group\ 27.png);
+}
+.feedback h3{
+    padding-top: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+
+}
+.feedback p{
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+.feedback .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 180px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.feedback .row .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.feedback .row .card{
+    width: 280px;
+    height: 360px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items:flex-end ;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+   
+}
+.feedback .row .card:hover{
+    transform: translateY(20px);
+}
+.feedback .row .card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+    z-index:2 ;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.feedback .row .card:hover:before{
+    opacity: 1;
+}
+.feedback .row .card .info{
+ position: relative;
+ z-index: 3;
+ color: #fff;
+ opacity: 0;
+ transform: translateY(30px);
+ transition: 0.5s all;
+}
+.feedback .row .card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.feedback .row .card .info h5{
+ margin: 0;
+ font-size: 30px;
+ color: #000;
+ text-transform: capitalize;
+}
+.feedback .row .card .info h6{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.feedback .row .card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+.feedback .row .card .info .btn:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+/* feedback end */
+
+
+/*======================================== footer start========================= */
+footer{
+    height: 510px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 100px;
+   padding-right: 100px;
+}
+footer .row{
+    display: flex;
+    height: 440px;
+    justify-content: space-between;
+    padding-top: 100px;
+   
+}
+footer .row .row1 p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+}
+.footwer img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+footer .row h4{
+    font-size: 22px;
+    color: #3A632F;
+    margin-bottom: 10px;
+}
+footer .row .row2 h5{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+footer .row .row3 h5{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+footer .row .row3 h6{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+footer .row .row3 p{
+    font-size: 16px;   
+    /* text-align: center; */
+}
+.footerline{
+    width: 100%;
+    border: 2px solid #3A632F;
+}
+#ffh{
+    font-size: 16px;
+    margin-top: 20px;
+}
+@media    (min-width:1024px) and (max-width:1366px){
+    footer{
+        height: 510px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 10px;
+       padding-right: 10px;
+    }
+    footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        height: 440px;
+        justify-content: space-between;
+        padding-top: 100px;
+       
+    }
+    footer .row .row1 p{
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    .footwer img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    footer .row h4{
+        font-size: 22px;
+        color: #3A632F;
+        margin-bottom: 10px;
+    }
+    footer .row .row2 h5{
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h5{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h6{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 p{
+        font-size: 16px;   
+        /* text-align: center; */
+    }
+    .footerline{
+        width: 100%;
+        border: 2px solid #3A632F;
+    }
+    #ffh{
+        font-size: 16px;
+        margin-top: 20px;
+    } 
+}
+
+@media screen and (max-width:991px)    
+{
+    footer{
+        height: 510px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 20px;
+       padding-right: 20px;
+    }
+    footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        height: 440px;
+        justify-content: space-between;
+        padding-top: 100px;
+       
+    }
+    footer .row .row1 p{
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    .footwer img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    footer .row h4{
+        font-size: 18px;
+        color: #3A632F;
+        margin-bottom: 10px;
+    }
+    footer .row .row2 h5{
+        font-size: 14px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h5{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h6{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 p{
+        font-size: 16px;   
+        /* text-align: center; */
+    }
+    .footerline{
+        width: 100%;
+        border: 2px solid #3A632F;
+    }
+    #ffh{
+        font-size: 14px;
+        margin-top: 20px;
+    } 
+}
+@media screen and (max-width:767px)    
+{
+    footer{
+        height: 610px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 20px;
+       padding-right: 20px;
+    }
+    footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        height: 540px;
+        justify-content: space-between;
+        padding-top: 100px;
+       
+    }
+    footer .row .row1 p{
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    .footwer img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    footer .row h4{
+        font-size: 22px;
+        color: #3A632F;
+        margin-bottom: 10px;
+    }
+    footer .row .row2 h5{
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h5{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h6{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 p{
+        font-size: 16px;   
+        /* text-align: center; */
+    }
+    .footerline{
+        width: 100%;
+        border: 2px solid #3A632F;
+    }
+    #ffh{
+        font-size: 16px;
+        margin-top: 20px;
+    } 
+}
+
+
+@media screen and (max-width:480px)    
+{
+    footer{
+        height: 760px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 40px;
+       padding-right: 40px;
+    }
+    footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        height: 690px;
+        justify-content: space-between;
+        padding-top: 100px;
+       
+    }
+    footer .row .row1 p{
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    .footwer img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    footer .row h4{
+        font-size: 22px;
+        color: #3A632F;
+        margin-bottom: 10px;
+    }
+    footer .row .row2 h5{
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h5{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h6{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 p{
+        font-size: 16px;   
+        /* text-align: center; */
+    }
+    .footerline{
+        width: 100%;
+        border: 2px solid #3A632F;
+    }
+    #ffh{
+        font-size: 16px;
+        margin-top: 20px;
+    } 
+}
+@media (min-width:200px) and (max-width:375px){
+    footer{
+        height: 860px;
+        width: 100%;
+        background-color: #ffffff;
+        padding-left: 40px;
+       padding-right: 40px;
+    }
+    footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        height: 790px;
+        justify-content: space-between;
+        padding-top: 100px;
+       
+    }
+    footer .row .row1 p{
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        margin-top: 30px;
+    }
+    .footwer img{
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    footer .row h4{
+        font-size: 22px;
+        color: #3A632F;
+        margin-bottom: 10px;
+    }
+    footer .row .row2 h5{
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h5{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 h6{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    footer .row .row3 p{
+        font-size: 16px;   
+        /* text-align: center; */
+    }
+    .footerline{
+        width: 100%;
+        border: 2px solid #3A632F;
+    }
+    #ffh{
+        font-size: 16px;
+        margin-top: 20px;
+    } 
+}
+/* footer end */
+/*------------------------- media start---------------------------- */
+
+
+
+/* ------navbar start----------- */
+
+/* media banner start */
+@media    (min-width:1024px) and (max-width:1366px){
+    header{
+        height: 709px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    .banner1 h1 {
+       font-size: 40px;
+    padding-top: 140px;
+    color: black;
+    font-weight: 700;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 40px;
+    }
+    .banner1 .b2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 180px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 365px;
+         height: 83px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 195px;
+        height: 83px;
+    }
+    
+    
+}
+@media screen and (max-width: 991px){
+    html{
+        width: 991px;
+        
+    }
+    header{
+        height: 709px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 100px;
+    }
+    .banner1 h1 {
+       font-size: 40px;
+    padding-top: 140px;
+    color: black;
+    font-weight: 700;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 40px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 40px;
+    }
+    .banner1 .b2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 180px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 365px;
+         height: 83px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 195px;
+        height: 83px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 767px){
+    html{
+        width: 767px;
+        
+    }
+    header{
+        height: 559px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 60px;
+    }
+    .banner1 h1 {
+       font-size: 30px;
+    padding-top: 100px;
+    color: black;
+    font-weight: 600;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 20px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 20px;
+    }
+    .banner1 .b2 button{
+        width: 100px;
+        height: 40px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 10px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 140px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 295px;
+         height: 63px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 155px;
+        height: 63px;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 575px){
+    html{
+        width: 575px;
+        
+    }
+    header{
+        height: 859px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 60px;
+    }
+    .banner1 h1 {
+       font-size: 50px;
+    padding-top: 50px;
+    color: black;
+    font-weight: 600;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 20px;
+    }
+    .banner1 .b2 button{
+        width: 140px;
+        height: 60px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 40px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 405px;
+         height: 93px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 205px;
+        height: 93px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 480px){
+    html{
+        width: 480px;
+        
+    }
+    header{
+        height: 859px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 60px;
+    }
+    .banner1 h1 {
+       font-size: 40px;
+    padding-top: 50px;
+    color: black;
+    font-weight: 600;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 20px;
+    }
+    .banner1 .b2 button{
+        width: 100px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 40px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 385px;
+         height: 93px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 205px;
+        height: 93px;
+    }
+    
+    
+    
+}
+@media  (min-width:200px) and (max-width:375px){
+    html{
+        width: 375px;
+        
+    }
+    header{
+        height: 759px;
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-size: cover;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    .banner1 h1 {
+       font-size: 40px;
+    padding-top: 50px;
+    color: black;
+    font-weight: 600;
+    }
+    .banner1 h1 span:hover{
+        cursor: pointer;
+        color: #3A632F;
+    }
+    .banner1 p{
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .banner1 .b2{
+        margin-top: 20px;
+    }
+    .banner1 .b2 button{
+        width: 100px;
+        height: 50px;
+        margin-right: 35px;
+        border-radius: 30px;
+        font-size: 12px;
+        font-weight: bold;
+        border: 2px  solid #000000;
+    }
+    .banner1 .b2 button:hover{
+        cursor: pointer;
+        background-color: #000000;
+        color: white;
+    }
+    .banner2 .banner2-1{
+        margin-top: 40px;
+    }
+    .banner2 .banner2-1 #i1{
+        margin-bottom: 20px;
+        width: 325px;
+         height: 83px;
+    }
+    .banner2 .banner2-2 #i2{
+        width: 165px;
+        height: 83px;
+    }
+    
+    
+    
+}
+/* media banner end */
+/* media collection start */
+@media    (min-width:1024px) and (max-width:1366px){
+    .collection {
+        height: 862px;
+        width: 100%;
+        background-image: url(../img/Group\ 20.png);
+        background-size: cover;
+    }
+    .collection h2{
+        padding-top: 40px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    
+    }
+    .collection h3{
+        padding-top: 20px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .collection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 60px;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+    .collection .row .card1{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 260px;
+        height: 255px;
+        background: #FFC973;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+        transition: 0.5s;
+    }
+    .collection .row .card1:hover{
+    
+    height: 320px;
+    }
+    .collection .row .card1 .imgbx{
+        position: absolute;
+        top: 20px;
+        width: 220px;
+        height: 200px;
+        background: var(--clr);
+        border-radius: 12px;
+        transition: 0.5s;
+    }
+    .collection .row .card1:hover .imgbx{
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+        
+    }
+    .collection .row .card1 .imgbx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .collection .row .card1 .content{
+        position: absolute;
+        width: 100%;
+        padding: 0 30px;
+        top: 222px;
+        height: 35px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    
+    }
+    .collection .row .card1:hover .content{
+        height: 250px;
+        top: 130px;
+    
+    }
+    .collection .row .card1 .content h4{
+       font-size: 25px;
+        font-weight: 700;
+        color:black;
+    }
+    .collection .row .card1 .content p{
+        color: #000;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .collection .row .card1 .content h5{
+        color: #000;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .collection .row .card1 .content a{
+        position: relative;
+        top: 15px;
+        display: inline-block;
+        padding: 12px 25px;
+        background: var(--clr);
+        color: #000;
+        font-weight: bold;
+      
+        text-decoration: none;
+        background-color: 8px
+        
+    
+    }
+    .collection .row .card1 .content a:hover{
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    }  
+}
+@media screen and (max-width: 991px){
+.collection {
+    height: 862px;
+    width: 100%;
+    background-image: url(../img/Group\ 20.png);
+    background-size: cover;
+}
+.collection h2{
+    padding-top: 40px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+.collection h3{
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.collection .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 60px;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.collection .row .card1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 260px;
+    height: 255px;
+    background: #FFC973;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+.collection .row .card1:hover{
+
+height: 320px;
+}
+.collection .row .card1 .imgbx{
+    position: absolute;
+    top: 20px;
+    width: 220px;
+    height: 200px;
+    background: var(--clr);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.collection .row .card1:hover .imgbx{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+    
+}
+.collection .row .card1 .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.collection .row .card1 .content{
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    top: 222px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.collection .row .card1:hover .content{
+    height: 250px;
+    top: 130px;
+
+}
+.collection .row .card1 .content h4{
+   font-size: 25px;
+    font-weight: 700;
+    color:black;
+}
+.collection .row .card1 .content p{
+    color: #000;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.collection .row .card1 .content h5{
+    color: #000;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.collection .row .card1 .content a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--clr);
+    color: #000;
+    font-weight: bold;
+  
+    text-decoration: none;
+    background-color: 8px
+    
+
+}
+.collection .row .card1 .content a:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
+}
+
+@media screen and (max-width: 767px){
+    .collection {
+        height: 662px;
+        width: 100%;
+        background-image: url(../img/Group\ 20.png);
+        background-size: cover;
+    }
+    .collection h2{
+        padding-top: 40px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    
+    }
+    .collection h3{
+        padding-top: 20px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .collection .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        margin: 0px 40px;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .collection .row .card1{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 200px;
+        height: 195px;
+        background: #FFC973;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+        transition: 0.5s;
+    }
+    .collection .row .card1:hover{
+    
+    height: 220px;
+    }
+    .collection .row .card1 .imgbx{
+        position: absolute;
+        top: 20px;
+        width: 170px;
+        height: 145px;
+        background: var(--clr);
+        border-radius: 12px;
+        transition: 0.5s;
+    }
+    .collection .row .card1:hover .imgbx{
+        top: -100px;
+        scale: 0.75;
+        box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+        
+    }
+    .collection .row .card1 .imgbx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .collection .row .card1 .content{
+        position: absolute;
+        width: 100%;
+        padding: 0 30px;
+        top: 165px;
+        height: 35px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    
+    }
+    .collection .row .card1:hover .content{
+        height: 220px;
+        top: 40px;
+    
+    }
+    .collection .row .card1 .content h4{
+       font-size: 25px;
+        font-weight: 700;
+        color:black;
+    }
+    .collection .row .card1 .content p{
+        color: #000;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .collection .row .card1 .content h5{
+        color: #000;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .collection .row .card1 .content a{
+        position: relative;
+        top: 12px;
+        display: inline-block;
+        padding: 10px 20px;
+        background: var(--clr);
+        color: #000;
+        font-weight: bold;
+      
+        text-decoration: none;
+        background-color: 8px
+        
+    
+    }
+    .collection .row .card1 .content a:hover{
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    }
+    }
+
+
+    @media screen and (max-width: 575px){
+        .collection {
+            height: 1562px;
+            width: 100%;
+            background-image: url(../img/Group\ 20.png);
+            background-size: cover;
+        }
+        .collection h2{
+            padding-top: 40px;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        
+        }
+        .collection h3{
+            padding-top: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        
+        .collection .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 112px;
+            justify-content: space-between;
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .collection .row .card1{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+           
+            width: 350px;
+            height: 300px;
+            background: #FFC973;
+            border-radius: 20px;
+            box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+            transition: 0.5s;
+            margin-top: 100px;
+        }
+        .collection .row .card1:hover{
+        
+        height: 400px;
+        }
+        .collection .row .card1 .imgbx{
+            position: absolute;
+            top: 20px;
+            width: 300px;
+            height: 220px;
+            background: var(--clr);
+            border-radius: 12px;
+            transition: 0.5s;
+        }
+        .collection .row .card1:hover .imgbx{
+            top: -100px;
+            scale: 0.75;
+            box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+            
+        }
+        .collection .row .card1 .imgbx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+        .collection .row .card1 .content{
+            position: absolute;
+            width: 100%;
+            padding: 0 30px;
+            top: 252px;
+            height: 35px;
+            overflow: hidden;
+            text-align: center;
+            transition: 0.5s;
+        
+        }
+        .collection .row .card1:hover .content{
+            height: 250px;
+            top: 130px;
+        
+        }
+        .collection .row .card1 .content h4{
+           font-size: 35px;
+            font-weight: 700;
+            color:black;
+        }
+        .collection .row .card1 .content p{
+            color: #000;
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        .collection .row .card1 .content h5{
+            color: #000;
+            font-size: 25px;
+            padding-top: 10px;
+        }
+        .collection .row .card1 .content a{
+            position: relative;
+            top: 15px;
+            display: inline-block;
+            padding: 15px 28px;
+            background: var(--clr);
+            color: #000;
+            font-weight: bold;
+          
+            text-decoration: none;
+            background-color: 8px
+            
+        
+        }
+        .collection .row .card1 .content a:hover{
+            box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+        }
+        }
+
+        @media screen and (max-width: 480px){
+            .collection {
+                height: 1562px;
+                width: 100%;
+                background-image: url(../img/Group\ 20.png);
+                background-size: cover;
+            }
+            .collection h2{
+                padding-top: 40px;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                color: rgb(0, 0, 0);
+                text-align: center;
+            
+            }
+            .collection h3{
+                padding-top: 20px;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+            
+            .collection .row{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 65px;
+                justify-content: space-between;
+                margin-top: 20px;
+                flex-direction: column;
+            }
+            .collection .row .card1{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+               
+                width: 350px;
+                height: 300px;
+                background: #FFC973;
+                border-radius: 20px;
+                box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+                transition: 0.5s;
+                margin-top: 100px;
+            }
+            .collection .row .card1:hover{
+            
+            height: 400px;
+            }
+            .collection .row .card1 .imgbx{
+                position: absolute;
+                top: 20px;
+                width: 300px;
+                height: 220px;
+                background: var(--clr);
+                border-radius: 12px;
+                transition: 0.5s;
+            }
+            .collection .row .card1:hover .imgbx{
+                top: -100px;
+                scale: 0.75;
+                box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+                
+            }
+            .collection .row .card1 .imgbx img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+            .collection .row .card1 .content{
+                position: absolute;
+                width: 100%;
+                padding: 0 30px;
+                top: 252px;
+                height: 35px;
+                overflow: hidden;
+                text-align: center;
+                transition: 0.5s;
+            
+            }
+            .collection .row .card1:hover .content{
+                height: 250px;
+                top: 130px;
+            
+            }
+            .collection .row .card1 .content h4{
+               font-size: 35px;
+                font-weight: 700;
+                color:black;
+            }
+            .collection .row .card1 .content p{
+                color: #000;
+                padding-top: 30px;
+                font-size: 20px;
+            }
+            .collection .row .card1 .content h5{
+                color: #000;
+                font-size: 25px;
+                padding-top: 10px;
+            }
+            .collection .row .card1 .content a{
+                position: relative;
+                top: 15px;
+                display: inline-block;
+                padding: 15px 28px;
+                background: var(--clr);
+                color: #000;
+                font-weight: bold;
+              
+                text-decoration: none;
+                background-color: 8px
+                
+            
+            }
+            .collection .row .card1 .content a:hover{
+                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+            }
+            }
+
+            @media (min-width:200px) and (max-width:375px){
+                .collection {
+                    height: 1562px;
+                    width: 100%;
+                    background-image: url(../img/Group\ 20.png);
+                    background-size: cover;
+                }
+                .collection h2{
+                    padding-top: 40px;
+                    font-size: 40px;
+                    display: flex;
+                    justify-content: center;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                
+                }
+                .collection h3{
+                    padding-top: 20px;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                }
+                
+                .collection .row{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px 12.5px;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    flex-direction: column;
+                }
+                .collection .row .card1{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                   
+                    width: 350px;
+                    height: 300px;
+                    background: #FFC973;
+                    border-radius: 20px;
+                    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+                    transition: 0.5s;
+                    margin-top: 100px;
+                }
+                .collection .row .card1:hover{
+                
+                height: 400px;
+                }
+                .collection .row .card1 .imgbx{
+                    position: absolute;
+                    top: 20px;
+                    width: 300px;
+                    height: 220px;
+                    background: var(--clr);
+                    border-radius: 12px;
+                    transition: 0.5s;
+                }
+                .collection .row .card1:hover .imgbx{
+                    top: -100px;
+                    scale: 0.75;
+                    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+                    
+                }
+                .collection .row .card1 .imgbx img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 12px;
+                }
+                .collection .row .card1 .content{
+                    position: absolute;
+                    width: 100%;
+                    padding: 0 30px;
+                    top: 252px;
+                    height: 35px;
+                    overflow: hidden;
+                    text-align: center;
+                    transition: 0.5s;
+                
+                }
+                .collection .row .card1:hover .content{
+                    height: 250px;
+                    top: 130px;
+                
+                }
+                .collection .row .card1 .content h4{
+                   font-size: 35px;
+                    font-weight: 700;
+                    color:black;
+                }
+                .collection .row .card1 .content p{
+                    color: #000;
+                    padding-top: 30px;
+                    font-size: 20px;
+                }
+                .collection .row .card1 .content h5{
+                    color: #000;
+                    font-size: 25px;
+                    padding-top: 10px;
+                }
+                .collection .row .card1 .content a{
+                    position: relative;
+                    top: 15px;
+                    display: inline-block;
+                    padding: 15px 28px;
+                    background: var(--clr);
+                    color: #000;
+                    font-weight: bold;
+                  
+                    text-decoration: none;
+                    background-color: 8px
+                    
+                
+                }
+                .collection .row .card1 .content a:hover{
+                    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                }
+                }
+               
+
+ /* media collection end */ 
+
+              
+
+            /* media best end */
+            @media(min-width:1024px) and (max-width:1366px) {
+                .garden{
+                    height: 414px;
+                    width: 100%;
+                    background-image: url(../img/bes.png);
+                    background-size: cover;
+                }
+                .garden .row{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    align-items: center;
+                    margin: 0px 40px;
+                }
+                .garden .row h4{
+                    color: white;
+                    font-size: 40px;
+                   
+                    text-transform: capitalize;
+                
+                }
+                .garden .row img {
+                     width: 276px;
+                     height: 221px;
+                     
+                }
+                .garden .row .garden2 h5{
+                    font-size: 20px;
+                    
+                    color: white;
+                }
+                .garden2 button{
+                    width: 100px;
+                    height: 40px;
+                    margin-right: 35px;
+                    border-radius: 30px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border: 2px  solid #ffffff;
+                    margin-top: 20px;
+                }
+                .garden2 button:hover{
+                    cursor: pointer;
+                    background-color: #000000;
+                    color: rgb(255, 255, 255);
+                    border: 2px  solid #000000;
+                }
+            }                 
+
+         
+
+        /* media garden start */
+
+        @media screen and (max-width: 991px){
+           
+.garden{
+    height: 414px;
+    width: 100%;
+    background-image: url(../img/bes.png);
+    background-size: cover;
+}
+.garden .row{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin: 0px 40px;
+}
+.garden .row h4{
+    color: white;
+    font-size: 40px;
+   
+    text-transform: capitalize;
+
+}
+.garden .row img {
+     width: 276px;
+     height: 221px;
+     
+}
+.garden .row .garden2 h5{
+    font-size: 20px;
+    
+    color: white;
+}
+.garden2 button{
+    width: 100px;
+    height: 40px;
+    margin-right: 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px  solid #ffffff;
+    margin-top: 20px;
+}
+.garden2 button:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px  solid #000000;
+}
+        }
+
+        @media screen and (max-width: 767px){
+           
+            .garden{
+                height: 364px;
+                width: 100%;
+                background-image: url(../img/bes.png);
+                background-size: cover;
+            }
+            .garden .row{
+                display: flex;
+                justify-content: space-between;
+                
+                align-items: center;
+                margin: 0px 20px;
+            }
+            .garden .row h4{
+                color: white;
+                font-size: 30px;
+               text-align: center;
+                text-transform: capitalize;
+            
+            }
+            .garden .row img {
+                 width: 226px;
+                 height: 191px;
+                 
+            }
+           
+            .garden .row .garden2 h5{
+                font-size: 18px;
+                text-align: center;
+                color: white;
+            }
+            .garden2 button{
+                width: 80px;
+                height: 40px;
+                margin-right: 35px;
+                border-radius: 30px;
+                font-size: 12px;
+                font-weight: bold;
+                border: 2px  solid #ffffff;
+                margin-top: 20px;
+            }
+            .garden2 button:hover{
+                cursor: pointer;
+                background-color: #000000;
+                color: rgb(255, 255, 255);
+                border: 2px  solid #000000;
+            }
+                    }
+
+                    @media screen and (max-width: 575px){
+           
+                        .garden{
+                            height: 964px;
+                            width: 100%;
+                            background-image: url(../img/bes.png);
+                            background-size: cover;
+                        }
+                        .garden .row{
+                            display: flex;
+                            justify-content: space-between;
+                            flex-direction: column;
+                            
+                            align-items: center;
+                            margin: 0px 20px;
+                        }
+                        .garden .row h4{
+                            color: white;
+                            font-size: 45px;
+                           
+                            text-transform: capitalize;
+                        
+                        }
+                        .garden .row img {
+                             width: 276px;
+                             height: 231px;
+                             
+                        }
+                        .garden .row .garden2{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        .garden .row .garden2 h5{
+                            font-size: 22px;
+                            text-align: center;
+                            color: white;
+                        }
+                        .garden2 button{
+                            width: 140px;
+                            height: 50px;
+                            margin-right: 35px;
+                            border-radius: 30px;
+                            font-size: 12px;
+                            font-weight: bold;
+                            border: 2px  solid #ffffff;
+                            margin-top: 20px;
+                        }
+                        .garden2 button:hover{
+                            cursor: pointer;
+                            background-color: #000000;
+                            color: rgb(255, 255, 255);
+                            border: 2px  solid #000000;
+                        }
+                                }
+
+
+                                @media screen and (max-width: 480px){
+           
+                                    .garden{
+                                        height: 964px;
+                                        width: 100%;
+                                        background-image: url(../img/bes.png);
+                                        background-size: cover;
+                                    }
+                                    .garden .row{
+                                        display: flex;
+                                        justify-content: space-between;
+                                        flex-direction: column;
+                                        
+                                        align-items: center;
+                                        margin: 0px 20px;
+                                    }
+                                    .garden .row h4{
+                                        color: white;
+                                        font-size: 45px;
+                                       
+                                        text-transform: capitalize;
+                                    
+                                    }
+                                    .garden .row img {
+                                         width: 276px;
+                                         height: 231px;
+                                         
+                                    }
+                                    .garden .row .garden2{
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    .garden .row .garden2 h5{
+                                        font-size: 22px;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    .garden2 button{
+                                        width: 140px;
+                                        height: 50px;
+                                        margin-right: 35px;
+                                        border-radius: 30px;
+                                        font-size: 12px;
+                                        font-weight: bold;
+                                        border: 2px  solid #ffffff;
+                                        margin-top: 20px;
+                                    }
+                                    .garden2 button:hover{
+                                        cursor: pointer;
+                                        background-color: #000000;
+                                        color: rgb(255, 255, 255);
+                                        border: 2px  solid #000000;
+                                    }
+                                            }
+                                            @media(min-width:200px) and (max-width:375px){
+                                                .garden{
+                                                    height: 964px;
+                                                    width: 100%;
+                                                    background-image: url(../img/bes.png);
+                                                    background-size: cover;
+                                                }
+                                                .garden .row{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    flex-direction: column;
+                                                    
+                                                    align-items: center;
+                                                    margin: 0px 20px;
+                                                }
+                                                .garden .row h4{
+                                                    color: white;
+                                                    font-size: 45px;
+                                                   
+                                                    text-transform: capitalize;
+                                                
+                                                }
+                                                .garden .row img {
+                                                     width: 276px;
+                                                     height: 231px;
+                                                     
+                                                }
+                                                .garden .row .garden2{
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    align-items: center;
+                                                }
+                                                .garden .row .garden2 h5{
+                                                    font-size: 22px;
+                                                    text-align: center;
+                                                    color: white;
+                                                }
+                                                .garden2{
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                .garden2 button{
+                                                    width: 140px;
+                                                    height: 50px;
+                                                    margin-right: 0px;
+                                                    border-radius: 30px;
+                                                    font-size: 12px;
+                                                    font-weight: bold;
+                                                    border: 2px  solid #ffffff;
+                                                    margin-top: 20px;
+                                                   
+                                                }
+                                                .garden2 button:hover{
+                                                    cursor: pointer;
+                                                    background-color: #000000;
+                                                    color: rgb(255, 255, 255);
+                                                    border: 2px  solid #000000;
+                                                }
+                                            }                                  
+
+
+
+                                           
+
+ 
+                            /* media house plant end */
+
+
+                            /* media feedback start */
+                            @media (min-width: 1024px)  and (max-width: 1366px){
+                                .feedback{
+                                    height: 916px;
+                                    width: 100%;
+                                    background-size: cover;
+                                    background-image: url(../img/Group\ 27.png);
+                                }
+                                .feedback h3{
+                                    padding-top: 40px;
+                                    font-size: 40px;
+                                    display: flex;
+                                    justify-content: center;
+                                    color: white;
+                                    text-align: center;
+                                
+                                
+                                }
+                                .feedback p{
+                                    padding-top: 20px;
+                                    font-size: 20px;
+                                    display: flex;
+                                    justify-content: center;
+                                    color: white;
+                                    text-align: center;
+                                
+                                }
+                                .feedback .row{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 0px 40px;
+                                    justify-content: space-between;
+                                    margin-top: 150px;
+                                }
+                                .feedback .row .card img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+                                .feedback .row .card{
+                                    width: 280px;
+                                    height: 360px;
+                                    padding: 2rem 1rem;
+                                    background: #fff;
+                                    position: relative;
+                                    display: flex;
+                                    align-items:flex-end ;
+                                    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                    transition: 0.5s ease-in-out;
+                                   
+                                }
+                                .feedback .row .card:hover{
+                                    transform: translateY(20px);
+                                }
+                                .feedback .row .card:before{
+                                    content: "";
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                    z-index:2 ;
+                                    transition: 0.5s all;
+                                    opacity: 0;
+                                }
+                                .feedback .row .card:hover:before{
+                                    opacity: 1;
+                                }
+                                .feedback .row .card .info{
+                                 position: relative;
+                                 z-index: 3;
+                                 color: #fff;
+                                 opacity: 0;
+                                 transform: translateY(30px);
+                                 transition: 0.5s all;
+                                }
+                                .feedback .row .card:hover .info{
+                                    opacity: 1;
+                                    transform: translateY(0px);
+                                }
+                                .feedback .row .card .info h5{
+                                 margin: 0;
+                                 font-size: 30px;
+                                 color: #000;
+                                 text-transform: capitalize;
+                                }
+                                .feedback .row .card .info h6{
+                                    letter-spacing: 1px;
+                                    font-size: 15px;
+                                    margin-top: 8px;
+                                    margin-bottom: 20px;
+                                    color: #000;
+                                }
+                                .feedback .row .card .info .btn{
+                                    text-decoration: none;
+                                    padding: 0.5rem 1rem;
+                                    background: #fff;
+                                    color: #000;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                    transition: 0.4s ease-in-out;
+                                    
+                                }
+                                .feedback .row .card .info .btn:hover{
+                                    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                }
+                            }
+                            @media screen and (max-width: 991px){
+                            .feedback{
+                                height: 916px;
+                                width: 100%;
+                                background-size: cover;
+                                background-image: url(../img/Group\ 27.png);
+                            }
+                            .feedback h3{
+                                padding-top: 40px;
+                                font-size: 40px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            
+                            }
+                            .feedback p{
+                                padding-top: 20px;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            }
+                            .feedback .row{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0px 40px;
+                                justify-content: space-between;
+                                margin-top: 150px;
+                            }
+                            .feedback .row .card img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .feedback .row .card{
+                                width: 280px;
+                                height: 360px;
+                                padding: 2rem 1rem;
+                                background: #fff;
+                                position: relative;
+                                display: flex;
+                                align-items:flex-end ;
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                transition: 0.5s ease-in-out;
+                               
+                            }
+                            .feedback .row .card:hover{
+                                transform: translateY(20px);
+                            }
+                            .feedback .row .card:before{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                z-index:2 ;
+                                transition: 0.5s all;
+                                opacity: 0;
+                            }
+                            .feedback .row .card:hover:before{
+                                opacity: 1;
+                            }
+                            .feedback .row .card .info{
+                             position: relative;
+                             z-index: 3;
+                             color: #fff;
+                             opacity: 0;
+                             transform: translateY(30px);
+                             transition: 0.5s all;
+                            }
+                            .feedback .row .card:hover .info{
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                            .feedback .row .card .info h5{
+                             margin: 0;
+                             font-size: 30px;
+                             color: #000;
+                             text-transform: capitalize;
+                            }
+                            .feedback .row .card .info h6{
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                margin-top: 8px;
+                                margin-bottom: 20px;
+                                color: #000;
+                            }
+                            .feedback .row .card .info .btn{
+                                text-decoration: none;
+                                padding: 0.5rem 1rem;
+                                background: #fff;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: 0.4s ease-in-out;
+                                
+                            }
+                            .feedback .row .card .info .btn:hover{
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                            }
+                        }
+
+
+                        
+                        @media screen and (max-width: 767px){
+                            .feedback{
+                                height: 756px;
+                                width: 100%;
+                                background-size: cover;
+                                background-image: url(../img/Group\ 27.png);
+                            }
+                            .feedback h3{
+                                padding-top: 40px;
+                                font-size: 40px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            
+                            }
+                            .feedback p{
+                                padding-top: 20px;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            }
+                            .feedback .row{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0px 40px;
+                                justify-content: space-between;
+                                margin-top: 100px;
+                            }
+                            .feedback .row .card img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .feedback .row .card{
+                                width: 220px;
+                                height: 300px;
+                                padding: 2rem 1rem;
+                                background: #fff;
+                                position: relative;
+                                display: flex;
+                                align-items:flex-end ;
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                transition: 0.5s ease-in-out;
+                               
+                            }
+                            .feedback .row .card:hover{
+                                transform: translateY(20px);
+                            }
+                            .feedback .row .card:before{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                z-index:2 ;
+                                transition: 0.5s all;
+                                opacity: 0;
+                            }
+                            .feedback .row .card:hover:before{
+                                opacity: 1;
+                            }
+                            .feedback .row .card .info{
+                             position: relative;
+                             z-index: 3;
+                             color: #fff;
+                             opacity: 0;
+                             transform: translateY(30px);
+                             transition: 0.5s all;
+                            }
+                            .feedback .row .card:hover .info{
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                            .feedback .row .card .info h5{
+                             margin: 0;
+                             font-size: 30px;
+                             color: #000;
+                             text-transform: capitalize;
+                            }
+                            .feedback .row .card .info h6{
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                margin-top: 8px;
+                                margin-bottom: 20px;
+                                color: #000;
+                            }
+                            .feedback .row .card .info .btn{
+                                text-decoration: none;
+                                padding: 0.5rem 1rem;
+                                background: #fff;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: 0.4s ease-in-out;
+                                
+                            }
+                            .feedback .row .card .info .btn:hover{
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                            }
+                        }
+
+
+                        @media screen and (max-width: 575px){
+                            .feedback{
+                                height: 1600px;
+                                width: 100%;
+                                background-size: cover;
+                                background-image: url(../img/Group\ 27.png);
+                            }
+                            .feedback h3{
+                                padding-top: 40px;
+                                font-size: 40px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            
+                            }
+                            .feedback p{
+                                padding-top: 20px;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            }
+                            .feedback .row{
+                                flex-direction: column;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0px 40px;
+                                justify-content: space-between;
+                                margin-top: 50px;
+                            }
+                            .feedback .row .card img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .feedback .row .card{
+                                width: 280px;
+                                height: 360px;
+                                padding: 2rem 1rem;
+                                background: #fff;
+                                position: relative;
+                                display: flex;
+                                align-items:flex-end ;
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                transition: 0.5s ease-in-out;
+                                margin-top: 50px;
+                               
+                            }
+                            .feedback .row .card:hover{
+                                transform: translateY(20px);
+                            }
+                            .feedback .row .card:before{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                z-index:2 ;
+                                transition: 0.5s all;
+                                opacity: 0;
+                            }
+                            .feedback .row .card:hover:before{
+                                opacity: 1;
+                            }
+                            .feedback .row .card .info{
+                             position: relative;
+                             z-index: 3;
+                             color: #fff;
+                             opacity: 0;
+                             transform: translateY(30px);
+                             transition: 0.5s all;
+                            }
+                            .feedback .row .card:hover .info{
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                            .feedback .row .card .info h5{
+                             margin: 0;
+                             font-size: 30px;
+                             color: #000;
+                             text-transform: capitalize;
+                            }
+                            .feedback .row .card .info h6{
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                margin-top: 8px;
+                                margin-bottom: 20px;
+                                color: #000;
+                            }
+                            .feedback .row .card .info .btn{
+                                text-decoration: none;
+                                padding: 0.5rem 1rem;
+                                background: #fff;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: 0.4s ease-in-out;
+                                
+                            }
+                            .feedback .row .card .info .btn:hover{
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                            }
+                        }
+
+
+                        @media screen and (max-width: 480px){
+                            .feedback{
+                                height: 1600px;
+                                width: 100%;
+                                background-size: cover;
+                                background-image: url(../img/Group\ 27.png);
+                            }
+                            .feedback h3{
+                                padding-top: 40px;
+                                font-size: 40px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            
+                            }
+                            .feedback p{
+                                padding-top: 20px;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            }
+                            .feedback .row{
+                                flex-direction: column;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0px 40px;
+                                justify-content: space-between;
+                                margin-top: 50px;
+                            }
+                            .feedback .row .card img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .feedback .row .card{
+                                width: 280px;
+                                height: 360px;
+                                padding: 2rem 1rem;
+                                background: #fff;
+                                position: relative;
+                                display: flex;
+                                align-items:flex-end ;
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                transition: 0.5s ease-in-out;
+                                margin-top: 50px;
+                               
+                            }
+                            .feedback .row .card:hover{
+                                transform: translateY(20px);
+                            }
+                            .feedback .row .card:before{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                z-index:2 ;
+                                transition: 0.5s all;
+                                opacity: 0;
+                            }
+                            .feedback .row .card:hover:before{
+                                opacity: 1;
+                            }
+                            .feedback .row .card .info{
+                             position: relative;
+                             z-index: 3;
+                             color: #fff;
+                             opacity: 0;
+                             transform: translateY(30px);
+                             transition: 0.5s all;
+                            }
+                            .feedback .row .card:hover .info{
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                            .feedback .row .card .info h5{
+                             margin: 0;
+                             font-size: 30px;
+                             color: #000;
+                             text-transform: capitalize;
+                            }
+                            .feedback .row .card .info h6{
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                margin-top: 8px;
+                                margin-bottom: 20px;
+                                color: #000;
+                            }
+                            .feedback .row .card .info .btn{
+                                text-decoration: none;
+                                padding: 0.5rem 1rem;
+                                background: #fff;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: 0.4s ease-in-out;
+                                
+                            }
+                            .feedback .row .card .info .btn:hover{
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                            }
+                        }
+
+
+
+                        @media (min-width:200px) and (max-width:375px){
+                            .feedback{
+                                height: 1600px;
+                                width: 100%;
+                                background-size: cover;
+                                background-image: url(../img/Group\ 27.png);
+                            }
+                            .feedback h3{
+                                padding-top: 40px;
+                                font-size: 40px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            
+                            }
+                            .feedback p{
+                                padding-top: 20px;
+                                font-size: 20px;
+                                display: flex;
+                                justify-content: center;
+                                color: white;
+                                text-align: center;
+                            
+                            }
+                            .feedback .row{
+                                flex-direction: column;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                /* margin: 0px 40px; */
+                                justify-content: space-between;
+                                margin-top: 50px;
+                            }
+                            .feedback .row .card img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .feedback .row .card{
+                                width: 280px;
+                                height: 360px;
+                                padding: 2rem 1rem;
+                                background: #fff;
+                                position: relative;
+                                display: flex;
+                                align-items:flex-end ;
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                                transition: 0.5s ease-in-out;
+                                margin-top: 50px;
+                               
+                            }
+                            .feedback .row .card:hover{
+                                transform: translateY(20px);
+                            }
+                            .feedback .row .card:before{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+                                z-index:2 ;
+                                transition: 0.5s all;
+                                opacity: 0;
+                            }
+                            .feedback .row .card:hover:before{
+                                opacity: 1;
+                            }
+                            .feedback .row .card .info{
+                             position: relative;
+                             z-index: 3;
+                             color: #fff;
+                             opacity: 0;
+                             transform: translateY(30px);
+                             transition: 0.5s all;
+                            }
+                            .feedback .row .card:hover .info{
+                                opacity: 1;
+                                transform: translateY(0px);
+                            }
+                            .feedback .row .card .info h5{
+                             margin: 0;
+                             font-size: 30px;
+                             color: #000;
+                             text-transform: capitalize;
+                            }
+                            .feedback .row .card .info h6{
+                                letter-spacing: 1px;
+                                font-size: 15px;
+                                margin-top: 8px;
+                                margin-bottom: 20px;
+                                color: #000;
+                            }
+                            .feedback .row .card .info .btn{
+                                text-decoration: none;
+                                padding: 0.5rem 1rem;
+                                background: #fff;
+                                color: #000;
+                                font-size: 14px;
+                                font-weight: bold;
+                                cursor: pointer;
+                                transition: 0.4s ease-in-out;
+                                
+                            }
+                            .feedback .row .card .info .btn:hover{
+                                box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+                            }
+                        }
+
+                        /* feedback end */
+
+ 
